@@ -1,0 +1,17 @@
+{
+    "name": "modal-forms",
+    "version": "1.0.0",
+    "description": "modal forms that work on ios",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+        "watch": "nodemon -e scss -x \"npm run css\""
+    },
+    "author": "ranjan datta",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "node-sass": "^3.7.0",
+        "nodemon": "^1.9.2"
+    }
+}
