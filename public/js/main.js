@@ -20,4 +20,11 @@
 	   overlay.classList.remove('is-open');
     };
 
+    if (window.matchMedia("(max-width:768px)").matches) {
+        var body = document.body;
+        var html = document.documentElement;
+        var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+        overlay.style.height = height + 'px';
+    }
 }());

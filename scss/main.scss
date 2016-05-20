@@ -12,7 +12,7 @@ body {
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
@@ -45,6 +45,7 @@ body {
     position: relative;
     margin: 0;
     .close {
+        color: $black;
         position: absolute;
         top: 0;
         right: 0;
@@ -69,10 +70,11 @@ body {
         bottom: 0;
         left: 0;
         right: 0;
-        height: 100vh;
+        height: 100%;
         max-height: 100%;
     }
     .overlay {
+        position: absolute;
         &.is-open {
             .modal {
                 transform: none;
