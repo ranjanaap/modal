@@ -1,5 +1,6 @@
 $badass: #bada55;
 $white: #fff;
+$black: #444;
 $helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 body {
     margin: 0;
@@ -86,6 +87,7 @@ body {
 .modal-form {
     width: 600px;
     margin: 1rem auto;
+    color: $black;
 
     .form-control {
         margin: 3em 0;
